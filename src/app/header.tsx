@@ -1,7 +1,7 @@
 import { SessionButton } from "~/components/session-button";
 import { Nav } from "./nav";
 import { getChannelName } from "./queries";
-import { Menu } from "lucide-react";
+import Hamburger from "./hamburger";
 
 export async function Header() {
   const channelName = await getChannelName();
@@ -10,7 +10,7 @@ export async function Header() {
     <div className="fixed top-0 left-0 w-full z-50 md:px-10">
       <header className="flex rounded-xl px-8 py-4 mt-8 justify-between text-[#FFB400] bg-[#041836]">
         <span className="md:hidden flex items-center">
-          <Menu />
+          <Hamburger />
         </span>
         <div className="flex gap-x-6 items-center">
           <h1>{channelName}</h1>

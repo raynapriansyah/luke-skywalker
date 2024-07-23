@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="bg-[#041836]">
       <Hero />
-      <div className="md:p-52">
+      <div className=" md:p-20 xl:p-52">
         <CardSlider />
       </div>
       <Footer />

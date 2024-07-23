@@ -38,7 +38,7 @@ export function CardSlider() {
   });
 
   return (
-    <div className="md:relative md:w-full">
+    <div className="">
       <Carousel className="mb-10">
         <h1 className="text-white sm:hidden">Category 2</h1>
         <CarouselContent>

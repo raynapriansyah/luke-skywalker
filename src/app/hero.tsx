@@ -37,15 +37,15 @@ export default function Hero() {
           className="h-[800px] md:w-full md:h-screen md:object-cover"
         />
         <div className="absolute inset-0 w-full bg-gradient-to-t md:bg-gradient-to-r from-[#01377F] via-[#01377F] to-[transparent]" />
-        <div className="container text-sm flex flex-col absolute top-[300px] sm:top-[500px] lg:top-[350px] md:px-10 text-white w-[90%] sm:w-[25%] text-left gap-4">
-          <div className="text-3xl  lg:text-5xl font-bold ">
+        <div className="container text-sm  flex flex-col absolute top-[300px] sm:top-[500px] md:top-[350px] md:px-10 text-white w-[90%] md:w-[50%] xl:w-[25%] text-left gap-4">
+          <div className="text-3xl lg:text-5xl font-bold ">
             <h1>{film.title}</h1>
           </div>
-          <h1 className="opacity-[66%] text-sm sm:text-base">
+          <h1 className="opacity-[66%] text-sm lg:text-xl sm:text-base">
             {film.release_date} | 2H 23m
           </h1>
           <div>
-            <h1 className="text-justify opacity-[66%] lg:text-sm">
+            <h1 className="text-justify opacity-[66%] text-sm lg:text-lg xl:text-sm">
               {film.opening_crawl}
             </h1>
           </div>

@@ -24,7 +24,7 @@ export default function SignInPage() {
 
   return (
     <div className="flex justify-center items-center">
-      <div className=" bg-white w-[612px] h-[789px] mt-28 rounded-2xl flex justify-center items-center">
+      <div className=" bg-white w-[350px] h-[500px] md:w-[612px] md:h-[789px] mt-28 rounded-2xl flex justify-center items-center">
         <Card className="w-[500px] h-[348px] border-transparent shadow-none">
           <CardHeader>
             <CardTitle className="text-2xl">Sign in</CardTitle>
